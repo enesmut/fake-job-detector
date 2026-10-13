@@ -2,10 +2,10 @@ from pathlib import Path
 
 import pandas as pd
 
-# Projenin ana klasörünü bul
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-# Veri setinin konumu
+
 DATA_PATH = PROJECT_ROOT / "data" / "raw" / "balanced.csv"
 
 if not DATA_PATH.exists():
@@ -13,7 +13,7 @@ if not DATA_PATH.exists():
         f"Veri seti bulunamadı: {DATA_PATH}"
     )
 
-# Veri setini yükle
+
 df = pd.read_csv(DATA_PATH)
 
 print("\n--- VERİ SETİ BİLGİLERİ ---")
