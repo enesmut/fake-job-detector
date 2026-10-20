@@ -1,0 +1,19 @@
+
+LOGISTIC REGRESSION IYILESTIRME SONUCLARI
+
+Secilen C degeri: 10.0
+Secilen duzenlilestirme: l2
+Egitim verisindeki 5 katli CV F1: 0.9237
+
+Test Accuracy: 0.9049
+Test Precision: 0.9217
+Test Recall: 0.8844
+Test F1-score: 0.9027
+Test ROC-AUC: 0.9687
+
+Hata matrisi:
+[[161  13]
+ [ 20 153]]
+
+Parametre secimi yalnizca egitim verisiyle yapildi.
+Test verisi son degerlendirme icin kullanildi.
