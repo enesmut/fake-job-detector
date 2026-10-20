@@ -1,0 +1,22 @@
+
+TF-IDF HAZIRLIK SONUCLARI
+-------------------------
+Kullanilan ilan sayisi: 1732
+Egitim ilan sayisi: 1385
+Test ilan sayisi: 347
+
+Egitim sinif dagilimi:
+fraudulent
+0    692
+1    693
+
+Test sinif dagilimi:
+fraudulent
+0    174
+1    173
+
+TF-IDF ozellik sayisi: 5000
+Egitim matrisi boyutu: (1385, 5000)
+Test matrisi boyutu: (347, 5000)
+
+Model egitimi: YAPILMADI
