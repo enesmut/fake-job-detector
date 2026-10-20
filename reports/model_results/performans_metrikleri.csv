@@ -1,0 +1,8 @@
+﻿Metrik;Deger
+Accuracy (Dogruluk);0.8934
+Precision (Kesinlik);0.9096
+Recall (Duyarlilik);0.8728
+F1-score;0.8909
+ROC-AUC;0.9582
+Egitim ilan sayisi;1385.0
+Test ilan sayisi;347.0
