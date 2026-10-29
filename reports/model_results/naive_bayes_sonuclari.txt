@@ -1,0 +1,29 @@
+
+NAIVE BAYES MODEL SONUCLARI (4. HAFTA)
+
+Egitim ilan sayisi: 1385
+Test ilan sayisi: 347
+Secilen alpha: 0.05  (5 katli CV F1: 0.8981)
+
+ILK MODEL (alpha=1.0)
+Accuracy: 0.8732  Precision: 0.8644
+Recall: 0.8844  F1-score: 0.8743  ROC-AUC: 0.9474
+
+IYILESTIRILMIS MODEL (alpha=0.05)
+Accuracy: 0.8876  Precision: 0.8988
+Recall: 0.8728  F1-score: 0.8856  ROC-AUC: 0.9533
+
+Hata matrisi:
+[[157  17]
+ [ 22 151]]
+
+LOGISTIC REGRESSION (C=10, l2) ile KARSILASTIRMA
+   Metrik  Logistic Regression  Naive Bayes  ComplementNB  Fark (NB - LR)
+ Accuracy               0.9049       0.8876        0.8876         -0.0173
+Precision               0.9217       0.8988        0.8988         -0.0229
+   Recall               0.8844       0.8728        0.8728         -0.0116
+ F1-score               0.9027       0.8856        0.8856         -0.0170
+  ROC-AUC               0.9683       0.9533        0.9533         -0.0151
+
+Egitim suresi (sn): LR=0.0527  NB=0.0054
+Proje hedefi (>= 0.85): F1 -> True, Accuracy -> True

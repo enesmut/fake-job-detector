@@ -1,0 +1,45 @@
+
+HATA ANALIZI OZETI (4. HAFTA)
+
+Test ilan sayisi: 347
+
+Gruplar:
+                  Ilan sayisi  Oran (%)
+Grup                                   
+Ikisi de dogru            302      87.0
+Sadece NB yanlis           12       3.5
+Sadece LR yanlis            6       1.7
+Ikisi de yanlis            27       7.8
+
+Hata turleri:
+                                   Naive Bayes  Logistic Regression
+Dogru                                      308                  314
+Kacirilan sahte (sahte -> gercek)           22                   20
+Yanlis alarm (gercek -> sahte)              17                   13
+
+Gruplara gore kelime sayisi:
+                  count   mean  median  min  max
+Grup                                            
+Ikisi de dogru      302  218.5   202.0    5  710
+Sadece NB yanlis     12  194.8   202.5    9  438
+Sadece LR yanlis      6  160.5   175.0   71  203
+Ikisi de yanlis      27  210.8   173.0   13  978
+
+Metin uzunlugu dilimine gore hata orani:
+                Ilan_sayisi  NB_hata_orani  LR_hata_orani
+Uzunluk_dilimi                                           
+(4.999, 102.5]           87          0.080          0.057
+(102.5, 199.0]           87          0.184          0.184
+(199.0, 291.5]           86          0.093          0.070
+(291.5, 978.0]           87          0.092          0.069
+
+Gruplara gore eksik alan orani (%):
+                    Ikisi de dogru  Sadece NB yanlis  Sadece LR yanlis  Ikisi de yanlis
+title                          0.0               0.0               0.0              0.0
+company_profile               37.1              58.3              83.3             77.8
+description                    0.0               0.0               0.0              0.0
+requirements                  16.6              50.0              50.0             11.1
+benefits                      41.1              66.7              50.0             48.1
+salary_range                  83.8              75.0              50.0             66.7
+department                    64.6              66.7              50.0             59.3
+required_education            52.0              58.3              50.0             37.0

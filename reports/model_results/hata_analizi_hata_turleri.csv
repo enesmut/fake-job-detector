@@ -1,0 +1,4 @@
+﻿;Naive Bayes;Logistic Regression
+Dogru;308;314
+Kacirilan sahte (sahte -> gercek);22;20
+Yanlis alarm (gercek -> sahte);17;13
